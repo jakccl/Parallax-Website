@@ -119,8 +119,13 @@ section #text {
     text-align: center;
     line-height: 0.55em;
     font-family: 'Rancho', cursive;
-    transform: translateY(-50%);
-    top: 50%;
+    
+    /* 1. Use -50% to center the text block vertically on the 'top' line. */
+    transform: translateY(-50%); 
+    
+    /* 2. Set the starting position. Use 20% to keep it high and visible. 
+       (Change to 10% if you still prefer that, but 20% is safer for large text.) */
+    top: 30%; 
 }
 
 
