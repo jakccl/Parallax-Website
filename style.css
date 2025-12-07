@@ -111,10 +111,11 @@ section #text span {
     color: white;
 }
 
+
 section #text {
     position: absolute;
     color: #004660;
-    font-size: 10vw;
+    font-size: 5vw;
     text-align: center;
     line-height: 0.55em;
     font-family: 'Rancho', cursive;
